@@ -1,0 +1,72 @@
+<!--
+	 텍스트 관련 CSS
+	 => font-size , font-family , font-weight
+	 => color
+	*** 1.text-decoration: none,underline , overline , 
+	     => 메뉴,<a>
+	 2.text-transform : none, uppercase , lowercase
+	 3. text-shadow
+	 ***4. white -space
+	 ***5. letter-sapacing
+	 6. word-spacing
+	 ***7.text-align : 정렬 => left/center/right
+	 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	ul{
+		width: 700px;
+		background-color: #FC6;
+		color: black;
+	}
+	li{
+		width:auto;
+		list-style: none;
+		display: inline-block;
+		/*text-transform: uppercase;*/
+		/*사용처 : 로고문자열 */
+	}
+	a{
+		color:black;
+		text-decoration: none;
+		text-shadow: 5px 5px 3px #f00;
+		
+	}
+	a:hover{
+		color: white;
+		text-decoration: overline;
+	}
+	table{
+		width: 600px;
+	}
+	pre{
+		white-space: pre-wrap; /*자동 줄바꿈 */
+		letter-spacing: 0.2em;
+	}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Member</a></li>
+		<li><a href="#">FreeBoard</a></li>
+		<li><a href="#">Recommand</a></li>
+		<li><a href="#">Mypage</a></li>
+	</ul>
+	<table>
+		<tr>
+			<td><pre>리코스포츠에이전시(리코)가 다시 한번 두산 베어스 상대로 빅딜을 끌어냈다.
+
+두산은 30일 자유계약선수(FA) 1루수 양석환(32)과 4+2년, 최대 78억원에 계약했다고 발표했다. 첫 4년 동안 최대 65억원(계약금 20억원, 총연봉 39억원, 인센티브 6억원)을 받을 수 있고 4년 계약이 끝난 뒤 구단과 선수가 합의해 2년, 13억원짜리 계약을 연장할 수 있는 상호 옵션이 포함됐다.
+
+시즌 뒤 ‘자유의 몸’이 된 양석환은 이번 겨울 FA 최대어라는 평가를 들었다. LG 트윈스에서 두산으로 이적한 2021년부터 3년 연속 20홈런을 때려냈다는 게 셀링 포인트였다. 하지만 2015년 데뷔 후 단 한 번도 3할 타율(최고 2023시즌 0.281)을 달성하지 못했고 100타점(최고 2021시즌 96개) 경험도 없다. 통산 122홈런을 기록 중이지만 개인 한 시즌 최고 장타율은 0.455에 머문다. 여러 복합적 이유로 복수의 구단이 영입전에서 발을 뺐는데 원소속팀 두산이 화끈하게 지갑을 열었다.
+
+공교롭게도 양석환의 대리인은 리코다. 리코는 앞서 두산과 여러 차례 대형 계약을 진행했다. 2020년 12월에는 내야수 허경민이 7년, 최대 87억원에 잔류했다. 4년 65억원(계약금 25억원, 총연봉 40억원)을 보</pre></td>
+		</tr>
+	</table>
+</body>
+</html>

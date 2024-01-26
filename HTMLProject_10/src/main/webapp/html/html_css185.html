@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+	.container{
+		margin-top:50px;
+	}
+	.row{
+		margin:0px auto; /*가운데 정렬*/
+		width: 850px;
+	}
+	#image{
+		width: 100%;
+		height: 500px;
+	}
+	#title,#price{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	#sub{
+		color:gray;
+	}
+	#percent{
+		font-size: 25px;
+		color: pink;
+		font-weight: bold;
+	}
+	#label{
+		font-size: 10px;
+		color:green;
+		font-weight: bold;
+	}
+	#price2{
+		font-size: 25px;
+		color:green;
+		font-weight: bold;
+	}
+	#star{
+		color: orange;
+		font-weight: bold;
+	}
+	#bold{
+		font-weight: bold;
+	}
+	#count{
+		color: gray;
+	}
+	img[src*="delivery3"]{
+		width: 20px;
+		height: 20px;
+	}
+	#delevery{
+		color: gray;
+	}
+	#sel{
+		width: 100%;
+		height: 40px;
+	}
+	/* 공통 적용*/
+	#cart,#buy{
+		width: 220px;
+		height: 50px;
+		border: 2px green solid;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 10px;
+	}
+	#cart{
+		background-color: white;
+		color: green;
+	}
+	#buy{
+		background-color: green;
+		color:white;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<table class="table">
+				<tr>
+					<td width="35%" align="center" rowspan="9">
+						<img src="https://recipe1.ezmember.co.kr/cache/data/goods/23/11/47/1000041974/1000041974_detail_031.jpg" id="image">
+					</td>
+					<td width="65%" align="center">
+						<span id="title">
+							대웅 오방향 전기 히터 퓨어화이트 DWH-7700W
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<span id="sub">다섯가지 방향의 난방으로 더욱 따듯하게</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<span id="percent">37%</span>&nbsp;
+						<span id="price">49,900원</span>
+						<p>
+							<del id="psub">79,000원</del>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<span id="label">첫구매할인가</span>
+						<span id="price2">47,405원</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<span id="star">★★★★★</span>&nbsp;
+						<span id="bold">4.5</span>
+						<span id="count">(299)</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<img src="https://recipe1.ezmember.co.kr/img/mobile/icon_delivery3.png">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id="delivery">무료배송</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<select id="sel">
+							<option>옵션 선택</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td width="65%">
+						<input type="button" value="장바구니" id="cart">
+						<input type="button" value="바로구매" id="buy">
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
